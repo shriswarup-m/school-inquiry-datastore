@@ -66,7 +66,7 @@ margin-bottom:20px;
 
 if not st.session_state.logged_in:
 
-    user = st.text_input("Username")
+    user = st.text_input("Username", placeholder="shriswarup")
     pwd = st.text_input("Password", type="password", placeholder="admin@123")
 
     login = st.button("Login")
